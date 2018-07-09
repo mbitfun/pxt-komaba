@@ -213,5 +213,4 @@ namespace shimon {
         scroll = time
     }
 }
-rt function setScrollTime(time: number): void {
 
