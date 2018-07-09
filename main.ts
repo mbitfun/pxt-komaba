@@ -209,7 +209,9 @@ namespace shimon {
 
     }
     //% blockId=set_scrollTime block="スクロール時間を設定 %t"
-    export function setScrollTime(time: number): void {
+    export function setScrollTime(time: numberi = 500): void {
         scroll = time
     }
 }
+rt function setScrollTime(time: number): void {
+
