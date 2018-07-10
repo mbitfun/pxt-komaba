@@ -208,6 +208,10 @@ namespace shimon {
         }
 
     }
+        /**
+         *SSet scroll time.
+         * @param time number of scroll time, eg: 500
+         */
     //% blockId=set_scrollTime block="スクロール時間を設定 %t"
     export function setScrollTime(time: number = 500): void {
         scroll = time
